@@ -110,8 +110,6 @@ var (
 func main() {
 	for {
 		printTime()
-		fmt.Println()
-
 		time.Sleep(time.Second)
 	}
 }
